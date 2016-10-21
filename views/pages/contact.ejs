@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body class="container">
+
+    <header>
+      <% include ../partials/header %>
+    </header>
+
+    <main>
+      <h1>Contact us</h1>
+      <p>
+        Please fill in your details and get in touch. If you prefer phone or email contact, please state your preference in the comments box.
+      </p>
+
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <div class="panel-title">
+              Ask me a question
+          </div>
+        </div>
+        <div class="panel-body">
+          <form method="post">
+            <div>
+              <label for="name">Name: </label><br>
+              <input type="text" name="name"></input>
+            </div>
+            <div>
+              <label for="email">Email: </label><br>
+              <input type="text" name="email"></input>
+            </div>
+            <div>
+              <label for="message">Comments and questions: </label><br>
+              <textarea rows="4" cols=50 name="message"></textarea>
+            </div>
+            <input type="submit" value="Send"></input>
+          </form>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer>
+      <% include ../partials/footer %>
+    </footer>
+
+  </body>
+</html>
