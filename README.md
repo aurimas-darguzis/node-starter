@@ -6,5 +6,3 @@ This project is a great place to start with Node.js using Express framework and 
 EJS is a client-side templating language that was originally part of JavaScript MVC, which has now been replaced by DoneJs.
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. 
-
-Express is a minimal and flexible Node.js web applicaiton framework that provides a robust set of features for web and mobile applications.
