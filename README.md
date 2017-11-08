@@ -1,5 +1,5 @@
 # node-starter
-clone the repo and run "npm install" then "node server.js".
+clone and run "npm install" then "node server.js"
 
 This project is a great place to start with Node.js using Express framework and serving pages using EJS templating engine. 
 
